@@ -108,6 +108,7 @@
 
 import React, { useEffect } from "react";
 import "./Home.css";
+import imageProfile from "/src/WhatsApp Image 2025-06-25 at 18.00.48_9a6c255e.jpg"
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import DateRangeIcon from "@mui/icons-material/DateRange";
@@ -143,7 +144,7 @@ const HomePage = () => {
         <ul className="list">
           <li>
             
-             <img src="src/WhatsApp Image 2025-06-25 at 18.00.48_9a6c255e.jpg"
+             <img src={imageProfile}
               width="200px"
               height="200px"
               alt="profile"  
