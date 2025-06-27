@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1e1e1f, #2c2c2e);
+  color: white;
+  min-height: 100vh;
+}
