@@ -112,7 +112,6 @@ import MailIcon from "@mui/icons-material/Mail";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import DateRangeIcon from "@mui/icons-material/DateRange";
 import AddLocationIcon from "@mui/icons-material/AddLocation";
-
 const HomePage = () => {
   useEffect(() => {
     const handleScroll = () => {
@@ -143,11 +142,11 @@ const HomePage = () => {
       <div className="listDiv hidden" id="box1">
         <ul className="list">
           <li>
-            <img
-              src="src/WhatsApp Image 2025-06-25 at 18.00.48_9a6c255e.jpg"
+            
+             <img src="src/WhatsApp Image 2025-06-25 at 18.00.48_9a6c255e.jpg"
               width="200px"
               height="200px"
-              alt=""
+              alt="profile"  
             />
           </li>
           <li>
