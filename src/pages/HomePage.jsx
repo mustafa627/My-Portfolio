@@ -157,10 +157,10 @@ const HomePage = () => {
             <MailIcon /> gm4762342@gmail.com
           </li>
           <li>
-            <PhoneAndroidIcon /> : 03121037923
+            <PhoneAndroidIcon /> 03121037923
           </li>
           <li>
-            <DateRangeIcon /> : 28 / March / 2007
+            <DateRangeIcon /> 28 / March / 2007
           </li>
           <li>
             <AddLocationIcon /> Karchi, Pakistan
@@ -173,7 +173,7 @@ const HomePage = () => {
             <h2>Education :</h2>
           </li>
           <li>
-            <p>
+            <p className="para">
               MONTH YEAR : 2025 DEGREE TITLE, INTERMEDIATE "I am currently
               pursuing my Master's in Islamiat."
             </p>
@@ -182,7 +182,7 @@ const HomePage = () => {
             <h2>Technical Skills: </h2>
           </li>
           <li>
-            <p>
+            <p className="para">
                Front-End Technologies: React.js, Bootstrap, HTML5, CSS3,
               JavaScript  Back-End Technologies: Node.js, Express.js 
               Databases: (MONGO DB ATLAS & FIREBASE DATABASE)
@@ -195,7 +195,7 @@ const HomePage = () => {
             <h4>Web Developer :</h4>
           </li>
           <li>
-            <p>
+            <p className="para">
               Skilled in creating responsive websites using HTML, CSS, and
               JavaScript with practical experience from Saylani Mass IT Training
               Program.
@@ -205,7 +205,7 @@ const HomePage = () => {
             <h4>Shopify Developer </h4>
           </li>
           <li>
-            <p>
+            <p className="para">
               Proficient in building and customizing Shopify stores, including
               product listings, theme editing, and basic app integrations.
             </p>
@@ -223,7 +223,7 @@ const HomePage = () => {
             <h4> Full Stack Developer </h4>
           </li>
           <li>
-            <p>
+            <p className="para">
               Understanding of both front-end and back-end technologies; able to
               work with databases, server side logic, and complete web app
               structures.

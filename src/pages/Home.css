@@ -11,7 +11,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   padding: 10px;
-  font-family: monospace;
+  /* font-family: monospace; */
 }
 
 .list {
@@ -62,7 +62,6 @@ img {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   padding: 10px;
-  font-family: monospace;
 }
 
 .list2 {
@@ -83,19 +82,20 @@ img {
   padding-left: 10px;
   border-left: 3px solid #ffd700;
   line-height: 1.5;
-  font-family: monospace;
 }
 
-p {
-  font-size: 10px;
+.p{
+  font-size: 5px;
 }
 
 h4{
   color: white;
+  font-size: 20px;
 }
 
 h2{
   color: white;
+  font-size: 20px;
 }
 
 .hidden {
@@ -135,8 +135,8 @@ h2{
     padding-left: 8px;
   }
 
-  p {
-    font-size: 12px;
+  .para{
+    font-size: 8px;
   }
 
   h2, h4 {
@@ -148,16 +148,14 @@ h2{
   .listDiv,
   .listDiv2 {
     width: 100%;
-    padding: 6px;
   }
 
   .list li,
   .list2 li {
-    font-size: 13px;
-    padding-left: 6px;
+    font-size: 8px;
   }
 
-  p {
+  .para{
     font-size: 10px;
   }
 

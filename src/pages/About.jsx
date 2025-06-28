@@ -110,7 +110,7 @@ const About = () => {
           <h3>PROFESSIONAL SUMMARY :</h3>
         </li>
         <li>
-          <p>
+          <p className="para">
             Dedicated Full Stack Developer with practical experience in React.js,
             Node.js, and Shopify development. Completed rigorous training at Saylani
             Mass IT Program. Passionate about building efficient and user friendly web
