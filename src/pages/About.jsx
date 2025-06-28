@@ -106,8 +106,8 @@ const About = () => {
   return (
     <div className="aboutDiv hidden">
       <ul className="list hidden">
-        <li className="h3">
-          <h3>PROFESSIONAL SUMMARY :</h3>
+        <li >
+          <h3 className="h3">PROFESSIONAL SUMMARY :</h3>
         </li>
         <li>
           <p className="para">

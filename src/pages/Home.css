@@ -156,16 +156,15 @@ h2{
   }
 
   .para{
-    font-size: 10px;
+    font-size: 5px;
   }
 
   h2, h4 {
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
   }
 
   .parent {
     padding: 10px;
-    gap: 12px;
   }
 }

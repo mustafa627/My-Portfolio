@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-
 .aboutDiv {
   /* border: 1px solid black; */
    font-family: "Roboto", sans-serif;
@@ -14,18 +13,18 @@
   margin-top: 20px;
   margin-top: 20px;
   padding: 20px;
-  /* font-family: monospace; */
   flex-wrap: wrap;
   background-color: #1e1e1f;
   box-shadow: 0 8px 17px rgba(0, 0, 0, 0.3);
 }
 
 .para {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .h3 {
   color: white;
+  font-size: 20px;
 }
 
 #lili {
