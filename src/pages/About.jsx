@@ -124,7 +124,7 @@ const About = () => {
       </ul>
 
       <ol className="list hidden" id="lili">
-        <li>Web Developer</li>
+        <li className="listLi">Web Developer</li>
         <li>FullStack Developer</li>
         <li>Daraz Store Handling</li>
         <li>Shopify Developer</li>

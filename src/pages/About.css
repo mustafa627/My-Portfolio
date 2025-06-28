@@ -58,3 +58,8 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+
+.listLi{
+  font-size: medium;
+}
