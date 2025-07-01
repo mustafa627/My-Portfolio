@@ -125,9 +125,9 @@ const About = () => {
 
       <ol className="list hidden" id="lili">
         <li className="listLi">Web Developer</li>
-        <li>FullStack Developer</li>
-        <li>Daraz Store Handling</li>
-        <li>Shopify Developer</li>
+        <li className="listLi">FullStack Developer</li>
+        <li className="listLi">Daraz Store Handling</li>
+        <li className="listLi">Shopify Developer</li>
       </ol>
 
       <ul id="cardLi" className="hidden">

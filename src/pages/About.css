@@ -63,3 +63,29 @@
 .listLi{
   font-size: medium;
 }
+
+ 
+#cardLi {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+ 
+@media (max-width: 768px) {
+  #cardLi {
+    justify-content: center;  
+    gap: 20px;
+  }
+}
+
+ 
+@media (max-width: 480px) {
+  #cardLi {
+    flex-direction: column;   
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+}
