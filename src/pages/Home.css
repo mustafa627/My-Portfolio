@@ -127,7 +127,9 @@ h2{
     width: 95%;
     padding: 8px;
   }
-
+.parent {
+  padding: 10px;
+  }
   .list li,
   .list2 li {
     font-size: 14px;
@@ -148,7 +150,9 @@ h2{
   .listDiv2 {
     width: 100%;
   }
-
+.parent {
+  padding-bottom: 10px;
+  }
   .list li,
   .list2 li {
     font-size: 13px;

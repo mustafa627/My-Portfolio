@@ -184,8 +184,9 @@ const HomePage = () => {
           <li>
             <p className="para">
                Front-End Technologies: React.js, Bootstrap, HTML5, CSS3,
-              JavaScript  Back-End Technologies: Node.js, Express.js 
-              Databases: (MONGO DB ATLAS & FIREBASE DATABASE)
+              JavaScript <br />  Back-End Technologies: Node.js, Express.js
+               <br />
+               Databases: (MONGO DB ATLAS & FIREBASE DATABASE)
             </p>
           </li>
           <li>
