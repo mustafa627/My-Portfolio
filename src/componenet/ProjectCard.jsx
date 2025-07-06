@@ -10,7 +10,7 @@ export default function ProjectCard({ image, name, linkProject }) {
     <Card
       sx={{
         maxWidth: 300,
-        height: 250,
+        height: 260,
         margin: "20px auto",
         backgroundColor: "#1e1e2f",
         color: "white",
@@ -56,14 +56,8 @@ export default function ProjectCard({ image, name, linkProject }) {
           </Typography>
 
           <Typography variant="body2" sx={{ color: "#b0bec5" }}>
-            {/* Ensure linkProject is a JSX element like <a> or string */}
             {typeof linkProject === "string" ? (
-              <a
-                href={linkProject}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "white", textDecoration: "none" }}
-              >
+              <a href={linkProject} target="_blank" rel="noopener noreferrer">
                 Visit Project
               </a>
             ) : (

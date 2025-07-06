@@ -1,15 +1,12 @@
-.project-card {
-  background: white;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-}
-.project-card a {
-  color: #007bff;
+ 
+
+a{
+  color: white;
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
 }
-.project-card a:hover {
-  text-decoration: underline;
+
+a:hover{
+  color: blueviolet;
 }
