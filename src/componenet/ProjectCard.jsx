@@ -10,7 +10,7 @@ export default function ProjectCard({ image, name, linkProject }) {
     <Card
       sx={{
         maxWidth: 300,
-        height: 260,
+        height: 300,
         margin: "20px auto",
         backgroundColor: "#1e1e2f",
         color: "white",
