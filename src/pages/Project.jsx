@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "../componenet/ProjectCard";
 import image from "/public/blogapp.png";
 import searchApp from "/public/githubsearchapp.png";
-import weatherApp from "/public/Weatherapp.png";
+import weatherapp from "/public/weatherapp.png";
 import todoapp from "/public/todoapp.png";
 import quiz from "/public/quizapp.png";
 import calculator from "/public/calculator.png";
@@ -14,6 +14,7 @@ import "./project.css";
 import SubdirectoryArrowRightIcon from "@mui/icons-material/SubdirectoryArrowRight";
 import { Box, Typography } from "@mui/material";
 const Project = () => {
+  console.log(weatherapp)
   return (
     <>
       {" "}
@@ -90,7 +91,7 @@ const Project = () => {
           }
         />{" "}
         <ProjectCard
-          image={weatherApp}
+          image={weatherapp}
           name={"Weather App"}
           linkProject={
             <a
