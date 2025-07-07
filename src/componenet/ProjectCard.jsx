@@ -9,7 +9,7 @@ export default function ProjectCard({ image, name, linkProject }) {
   return (
     <Card
       sx={{
-        maxWidth: 300,
+         
         height: "auto",
         margin: "20px auto",
         backgroundColor: "#1e1e2f",
