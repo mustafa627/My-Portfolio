@@ -78,6 +78,9 @@
     justify-content: center;  
     gap: 20px;
   }
+  .aboutDiv{
+    margin-bottom: 18px;
+  }
 }
 
  
