@@ -1,12 +1,10 @@
- 
-
-a{
+a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
 }
 
-a:hover{
+a:hover {
   color: blueviolet;
 }
