@@ -64,7 +64,7 @@ box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5), 0 3px 5px rgba(0, 0, 0, 0.3);
   }
 }
 
-button {
+#btnHire{
   background-color: #272727;  
   color: wheat;
   border: none;
@@ -78,10 +78,10 @@ button {
   transition: all 0.3s ease;
 }
 
-button:hover {
+#btnHire:hover {
   background-color: "#1e1e2f";
-  transform: scale(1.0);
-  color: white;
+  transform: scale(1.1);
+  color: red;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 

@@ -122,6 +122,7 @@ const ContactPage = () => {
       label="Your Name"
       variant="outlined"
       placeholder="Enter your full name"
+      required
       fullWidth
       InputProps={{
         sx: {
@@ -137,6 +138,7 @@ const ContactPage = () => {
       type="email"
       label="Your Email"
       variant="outlined"
+      required
       placeholder="you@example.com"
       fullWidth
       InputProps={{
@@ -149,10 +151,11 @@ const ContactPage = () => {
     />
 
     <TextField
-      name="message" // ✅ REQUIRED!
+      name="message"  
       label="Message"
       placeholder="Write your message..."
       variant="outlined"
+      required
       multiline
       minRows={4}
       maxRows={6}

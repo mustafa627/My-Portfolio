@@ -20,7 +20,8 @@ export default function ProjectCard({ image, name, linkProject }) {
         boxShadow: 5,
         transition: "transform 0.3s ease",
         "&:hover": {
-          transform: "scale(1.03)",
+          transform: "scale(1.1)",
+          zIndex: 2,
         },
         "@keyframes fadeInUp": {
           "0%": {
@@ -41,6 +42,8 @@ export default function ProjectCard({ image, name, linkProject }) {
           height: "100%",
           "&:hover": {
             backgroundColor: "transparent !important",
+ transform: "translateY(-5px)"
+         
           },
           "&:focus": {
             backgroundColor: "transparent !important",
