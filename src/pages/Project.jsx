@@ -14,7 +14,7 @@ import "./project.css";
 import SubdirectoryArrowRightIcon from "@mui/icons-material/SubdirectoryArrowRight";
 import { Box, Typography } from "@mui/material";
 const Project = () => {
-  console.log(weatherapp)
+  console.log(weatherapp);
   return (
     <>
       {" "}
@@ -24,9 +24,11 @@ const Project = () => {
           textAlign: "center",
           marginTop: "20px",
           borderBottom: "1px solid white",
+          width: "80%",
+          margin: "0 auto"
         }}
       >
-        React Js
+    <i>Frontend !</i>
       </Typography>
       <Box
         sx={{
@@ -38,19 +40,7 @@ const Project = () => {
         }}
       >
         {" "}
-        <ProjectCard
-          image={image}
-          name={"Blog App With Firebase"}
-          linkProject={
-            <a
-              href="https://myblogapp-reactjs.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <SubdirectoryArrowRightIcon /> Visit Blog App
-            </a>
-          }
-        />{" "}
+       
         <ProjectCard
           image={portfolio}
           name={"portfolio app"}
@@ -60,11 +50,11 @@ const Project = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SubdirectoryArrowRightIcon /> Visit  Portfolio
+              <SubdirectoryArrowRightIcon /> Visit Portfolio
             </a>
           }
         />
-         <ProjectCard
+        <ProjectCard
           image={tasbeeh}
           name={"tasbeeh App"}
           linkProject={
@@ -116,26 +106,7 @@ const Project = () => {
             </a>
           }
         />
-      </Box>
-      <Typography
-        variant="h2"
-        sx={{
-          textAlign: "center",
-          marginTop: "20px",
-          borderBottom: "1px solid white",
-        }}
-      >
-        Java Script
-      </Typography>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "row",
-          flexWrap: "wrap",
-          justifyContent: "flex-start",
-          alignItems: "flex-start",
-        }}
-      >
+     
         <ProjectCard
           image={quiz}
           name={"Quiz App"}
@@ -188,7 +159,38 @@ const Project = () => {
             </a>
           }
         />{" "}
-       
+      </Box>
+      {""}
+      <Typography
+        variant="h2"
+        sx={{
+          textAlign: "center",
+          marginTop: "20px",
+          borderBottom: "1px solid white",
+          width: "80%",
+          margin: "0 auto"
+        }}
+      >
+       <i>Fullstack !</i>
+      </Typography>
+      <Box 
+      sx={{
+        display: "flex",
+        justifyContent: "flex-start"
+      }}>
+        <ProjectCard
+          image={image}
+          name={"Blog App"}
+          linkProject={
+            <a
+              href="https://myblogapp-reactjs.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SubdirectoryArrowRightIcon /> Visit Blog App
+            </a>
+          }
+        />
       </Box>
     </>
   );
