@@ -83,6 +83,10 @@ img {
   line-height: 1.5;
 }
 
+#icon{
+  gap: 15px;
+}
+
 .p{
   font-size: 5px;
 }
