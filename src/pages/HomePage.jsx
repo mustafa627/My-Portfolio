@@ -108,7 +108,7 @@
 
 import React, { useEffect } from "react";
 import "./Home.css";
-import imageProfile from "/src/WhatsApp Image 2025-06-25 at 18.00.48_9a6c255e.jpg"
+import imageProfile from "/src/WhatsApp Image 2025-06-25 at 18.00.48_9a6c255e.jpg";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import DateRangeIcon from "@mui/icons-material/DateRange";
@@ -143,11 +143,11 @@ const HomePage = () => {
       <div className="listDiv hidden" id="box1">
         <ul className="list">
           <li>
-            
-             <img src={imageProfile}
+            <img
+              src={imageProfile}
               width="200px"
               height="200px"
-              alt="profile"  
+              alt="profile"
             />
           </li>
           <li>
@@ -183,10 +183,17 @@ const HomePage = () => {
           </li>
           <li>
             <p className="para">
-               Front-End Technologies: React.js, Bootstrap, HTML5, CSS3,
-              JavaScript <br />  Back-End Technologies: Node.js, Express.js
-               <br />
-               Databases: (MONGO DB ATLAS & FIREBASE DATABASE)
+              <h3> Frontend : </h3> HTML5, CSS3, JavaScript (ES6+), React.js,
+              Redux, React Router
+              <h3>  Styling & UI :</h3> Tailwind CSS, Material UI (MUI), Bootstrap
+              Form Handling: React Hook Form, Formik, Yup
+              <h3> Backend : </h3> Node.js, Express.js, MongoDB
+              <h3> Version Control</h3> GitHub
+              <h3> Other Tools:</h3> Postman, VS Code, Netlify, Vercel,  
+              <h3> Soft Skills : </h3>
+              Teamwork, Communication, Problem-solving  
+              <h3> Databases</h3>(MONGO DB
+              ATLAS & FIREBASE DATABASE, SUPABASE , MYSQL BASIC KNWOLEDGE )
             </p>
           </li>
           <li>
